@@ -1,3 +1,5 @@
+<!-- Fixture README for the GitHub Actions cargo workflow. -->
+
 # A3-gha-cargo-action
 
 The wrapper-input form: the command lives in an Action input, not in a `run:` line. (The Node set uses Azure's Npm@1 task for this; Azure has no Rust task, so the Rust analogue is the actions-rs/cargo Action.)
